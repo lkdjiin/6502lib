@@ -5,25 +5,28 @@ Assembly routines and macros for the 6502 processor.
 
 ## Routines
 
-_routine name - [optional macro] - file to import_
-
 ### Misc
-delay.long - [LongDelay(time)] - "delay.long.asm"
+
+- **delay.long** "delay.long.asm"
+  - LongDelay(time)
 
 ## Macros
 
 All macros are in the file "macros.asm".
 
 ### Math
-AddWordMByte(word_address, byte_address)
-AddWordLByte(word_address, byte_value)
-DecWord(address)
-IncWord(address)
-SubWordLByte(word_address, byte_value)
+
+- AddWordMByte(word_address, byte_address)
+- AddWordLByte(word_address, byte_value)
+- DecWord(address)
+- IncWord(address)
+- SubWordLByte(word_address, byte_value)
 
 ### Stack
-PushAY()
-PullYA()
+
+- PushAY()
+- PullYA()
 
 ### Store
-StoreWord(value, address)
+
+- StoreWord(value, address)
