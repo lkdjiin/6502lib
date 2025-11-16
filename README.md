@@ -20,6 +20,7 @@ All macros are in the file "macros.asm".
 - AddWordLByte(word_address, byte_value)
 - DecWord(address)
 - IncWord(address)
+- ShiftLeftWord(word_address)
 - SubWordLByte(word_address, byte_value)
 
 ### Stack

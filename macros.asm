@@ -43,6 +43,13 @@
   done:
 }
 
+// Shift left a 16 bits number.
+// Destroys nothing.
+.macro ShiftLeftWord(word_address) {
+  asl word_address     // low byte
+  rol word_address + 1 // high byte
+}
+
 // Sub a literal byte from a word in memory.
 // Destroys A
 .macro SubWordLByte(word_address, byte_value) {
